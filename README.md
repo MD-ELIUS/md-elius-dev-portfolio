@@ -46,13 +46,13 @@ Technologies and tools I use to build seamless digital experiences:
 A full-stack real estate platform built with **React, Node.js, Express, and MongoDB**, where users can explore, post, update, and manage property listings with secure Firebase authentication, ratings, reviews, and a responsive interface.
 
 **Tech Stack:** React, Tailwind CSS, Firebase, Node.js, Express, MongoDB  
-**Links:** [Live Demo](#) | [GitHub](#)
+**Links:** [Live Demo](https://home-nest-5d146.web.app/) | [GitHub](https://github.com/MD-ELIUS/home-nest-client)
 
 #### 2. Modern Furniture Store
 A responsive furniture e-commerce website where users can browse products, view details, and add their own furniture after login.
 
 **Tech Stack:** Next.js, React, Tailwind CSS, Firebase, Express, MongoDB  
-**Links:** [Live Demo](#) | [GitHub](#)
+**Links:** [Live Demo](https://mega-mart-client-gilt.vercel.app/) | [GitHub](https://github.com/MD-ELIUS/mega-mart-client)
 
 ---
 

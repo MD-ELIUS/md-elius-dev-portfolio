@@ -1,0 +1,38 @@
+.neon-btn {
+  position: relative;
+  background-color: #111;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem; /* Rounded corners */
+  transition: 0.3s;
+}
+
+.neon-btn:hover {
+  color: #00ffff;
+}
+
+.neon-border {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 0.5rem;
+  border: 2px solid;
+  border-image: linear-gradient(90deg, #00ffff, #ff00ff, #00ffff);
+  border-image-slice: 1;
+  pointer-events: none;
+  animation: neon-border 2.5s linear infinite;
+}
+
+@keyframes neon-border {
+  0% {
+    border-image-source: linear-gradient(90deg, #00ffff, #ff00ff, #00ffff);
+  }
+  50% {
+    border-image-source: linear-gradient(270deg, #00ffff, #ff00ff, #00ffff);
+  }
+  100% {
+    border-image-source: linear-gradient(450deg, #00ffff, #ff00ff, #00ffff);
+  }
+}
